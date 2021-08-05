@@ -1,0 +1,71 @@
+Info in <TUnixSystem::ACLiC>: creating shared library /mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/./EIC_mesonMC_n_cpp.so
+In file included from input_line_9:6:
+././EIC_mesonMC_n.cpp:1:1: error: unknown type name 'bbbbbbbbbbbbbbbbbbbbbbbbbbb'
+bbbbbbbbbbbbbbbbbbbbbbbbbbb/*
+^
+In file included from input_line_9:6:
+In file included from ././EIC_mesonMC_n.cpp:14:
+In file included from /mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:12:
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/cteq/cteqpdf.h:9:8: error: expected unqualified-id
+extern "C" {
+       ^
+In file included from input_line_9:6:
+In file included from ././EIC_mesonMC_n.cpp:14:
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:184:1: error: unknown type name 'cteq_pdf_t'
+cteq_pdf_t *__dis_pdf;
+^
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:187:15: error: use of undeclared identifier 'cteq_pdf_alloc_id'
+  __dis_pdf = cteq_pdf_alloc_id(400); // mode 400 = cteq6.6?
+              ^
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:241:24: error: unknown type name 'cteq_pdf_t'
+void __cteq_pdf_setlmd(cteq_pdf_t *pdf)
+                       ^
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:294:32: error: unknown type name 'cteq_pdf_t'
+double __cteq_pdf_pardis(const cteq_pdf_t *pdf, int iprtn, double x, double q)
+                               ^
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:399:1: error: unknown type name 'cteq_pdf_t'
+cteq_pdf_t * __cteq_pdf_alloc_read_tbl(FILE *file)
+^
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:405:3: error: unknown type name 'cteq_pdf_t'
+  cteq_pdf_t *pdf =  (cteq_pdf_t*) (malloc(sizeof(cteq_pdf_t)));
+  ^
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:405:23: error: use of undeclared identifier 'cteq_pdf_t'
+  cteq_pdf_t *pdf =  (cteq_pdf_t*) (malloc(sizeof(cteq_pdf_t)));
+                      ^
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:405:34: error: expected expression
+  cteq_pdf_t *pdf =  (cteq_pdf_t*) (malloc(sizeof(cteq_pdf_t)));
+                                 ^
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:405:51: error: use of undeclared identifier 'cteq_pdf_t'
+  cteq_pdf_t *pdf =  (cteq_pdf_t*) (malloc(sizeof(cteq_pdf_t)));
+                                                  ^
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:496:1: error: unknown type name 'cteq_pdf_t'
+cteq_pdf_t * __cteq_pdf_alloc_read_pds(FILE *file)
+^
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:501:3: error: unknown type name 'cteq_pdf_t'
+  cteq_pdf_t *pdf =  (cteq_pdf_t*) (malloc(sizeof(cteq_pdf_t)));
+  ^
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:501:23: error: use of undeclared identifier 'cteq_pdf_t'
+  cteq_pdf_t *pdf =  (cteq_pdf_t*) (malloc(sizeof(cteq_pdf_t)));
+                      ^
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:501:34: error: expected expression
+  cteq_pdf_t *pdf =  (cteq_pdf_t*) (malloc(sizeof(cteq_pdf_t)));
+                                 ^
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:501:51: error: use of undeclared identifier 'cteq_pdf_t'
+  cteq_pdf_t *pdf =  (cteq_pdf_t*) (malloc(sizeof(cteq_pdf_t)));
+                                                  ^
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:600:1: error: unknown type name 'cteq_pdf_t'
+cteq_pdf_t * cteq_pdf_alloc(const cteq_pdfset_t *pdfset)
+^
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:600:35: error: unknown type name 'cteq_pdfset_t'
+cteq_pdf_t * cteq_pdf_alloc(const cteq_pdfset_t *pdfset)
+                                  ^
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:603:3: error: unknown type name 'cteq_pdf_t'
+  cteq_pdf_t *pdf = 0;
+  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+Error in <ACLiC>: Executing '/home/davidzarta/Applications/root_v6.24/bin/rootcling -v0 "--lib-list-prefix=/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC_n_cpp_ACLiC_map" -f "/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC_n_cpp_ACLiC_dict.cxx" -I$ROOTSYS/include -I"/home/davidzarta/Applications/root_v6.24/etc/" -I"/home/davidzarta/Applications/root_v6.24/etc//cling" -I"/home/davidzarta/Applications/root_v6.24/include/" -I"/home/davidzarta/Applications/root_v6.24/include" -D__ACLIC__  "/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/./EIC_mesonMC_n.cpp" "/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC_n_cpp_ACLiC_linkdef.h"' failed!
+input_line_9:2:3: error: use of undeclared identifier 'mainx'
+ (mainx(0.001, 1., 1., 1000., 20210452, 50000000, 41., 5., true))
+  ^
+Error in <HandleInterpreterException>: Error evaluating expression (mainx(0.001, 1., 1., 1000., 20210452, 50000000, 41., 5., true)).
+Execution of your code was aborted.

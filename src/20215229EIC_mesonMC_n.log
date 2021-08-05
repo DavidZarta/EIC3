@@ -1,0 +1,9 @@
+Info in <TUnixSystem::ACLiC>: creating shared library /mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/./EIC_mesonMC_n_cpp.so
+In file included from input_line_9:6:
+In file included from ././EIC_mesonMC_n.cpp:14:
+/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC.h:824:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+{standard input}: Assembler messages:
+{standard input}: Fatal error: can't close EIC_mesonMC_n_cpp_ACLiC_dict.o: No space left on device
+input_line_9:2:3: error: 
